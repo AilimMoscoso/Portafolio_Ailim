@@ -1,0 +1,581 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Ailim Moscoso | Portafolio</title>
+	<link href="images/favicon.png" rel="icon">
+	<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	</script>
+	<!----webfonts---->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,200,700,800,900' rel='stylesheet' type='text/css'>
+	<!----//webfonts---->
+	<!----script-for-smoth-scroling---->
+	<script type="text/javascript">
+		$(function () {
+			$('a[href*=#]:not([href=#])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
+	<!----start-top-nav-script---->
+	<script>
+		$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	<!----//script-for-smoth-scroling---->
+</head>
+
+<body>
+	<!----start-header--->
+	<div id="top" class="header">
+		<!----start-container---->
+		<div class="container">
+			<div class="logo navbar-header">
+				<a href="#page-top">
+					<a href="#"> <img src="images/logo3.png" title="Butterfly" /></a>
+				</a>
+			</div>
+			<!--top-nav-->
+			<nav class="top-nav">
+				<ul class="top-nav">
+					<li class="active"><a href="#home">Inicio</a></li>
+					<li class="page-scroll"><a href="#about">Acerca de mi</a></li>
+					<li class="page-scroll"><a href="#skills">Habilidades</a></li>
+					<!-- <li class="page-scroll"><a href="#port">Portafolio</a></li> -->
+					<li class="page-scroll"><a class="subNavBtn" href="#blog">Proyectos</a></li>
+					<li class="page-scroll"><a href="#testimonios">Testimonios</a></li>
+					<li class="page-scroll"><a href="#contact">Contacto</a></li>
+				</ul>
+				<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+			</nav>
+			<!--//top-nav-->
+		</div>
+	</div>
+	<!----//End-header--->
+	<!-- --start-slider---->
+	<!-- --slider-requried-files- -->
+	<link rel="stylesheet" href="css/fwslider.css" media="all">
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/fwslider.js"></script>
+	<!----//slider-requried-files--->
+	<!---start-image-slider-- -->
+	<div class="slider">
+		<div id="fwslider">
+			<div class="slider_container">
+				<div class="slide">
+					<!-- Slide image -->
+					<img class="slide-img " src="images/framer.png" alt="" />
+					<!-- /Slide image -->
+					<!-- Texts container -->
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h3 class="title">SOY UX DESIGNER</h3>
+							<p class="description">Diseño no es lo que veo, sino lo que debo hacer para que
+								otras personas vean - ED
+							</p>
+							<br>
+							<div class="descarga">
+								<a href="https://drive.google.com/file/d/1WjX5ftM0EljKWP6NUXRi2hPxdHK1Lifs/view" target="_blank" type="submit"
+								 class="btn btn-danger" style="font-size: 18px">Descarga mi CV</a>
+							</div>
+							<br>
+							<p align="center"><img class="img-responsive description img1" src="images/slider-img.png" title="name" /></p>
+						</div>
+					</div>
+					<!-- /Texts container -->
+				</div>
+				<!-- /Duplicate to create more slides -->
+				<div class="slide">
+					<img class="slide-img" src="images/framer2.png" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h3 class="title">SOY ADMINISTRADORA</h3>
+							<p class="description">El mayor riesgo, es no correr ningún riesgo. En un mundo que
+								cambia rápidamente, la única estrategia que garantiza fallar es no correr riesgos -MZ
+							</p>
+							<br>
+							<div class="descarga">
+								<a href="https://drive.google.com/file/d/1WjX5ftM0EljKWP6NUXRi2hPxdHK1Lifs/view" target="_blank" type="submit"
+								class="btn btn-danger" style="font-size: 18px">Descarga mi CV</a>
+							</div>
+							<br>
+							<p align="center"></p><img class="img-responsive description img1" src="images/slider-img.png" title="name" /></p>
+						</div>
+					</div>
+				</div>
+				<!--/slide -->
+			</div>
+			<div class="timers"> </div>
+			<div class="slidePrev"><span> </span></div>
+			<div class="slideNext"><span> </span></div>
+		</div>
+		<!---End-image-slider---->
+	</div>
+	<!----//End-slider---->
+	<!----start-about-us---->
+	<div id="about" class="container about">
+		<div class="text-center div-head">
+			<h2>ACERCA DE MI</h2>
+		</div>
+		<div class="text-center div-head">
+			<p>Diseñadora de experiencias digitales. Administradora con especialidad en
+				ventas y análisis comercial. Bailarina calificada. Siempre he creído que
+				hay alguna manera de hacer lo que nos apasiona, me caracterizo por mi
+				capacidad de investigar y observar, desde pequeña me gustó descubrir cosas
+				y ayudar a crear soluciones que mejoren la vida de las personas. Gracias a
+				esta motivación, encontré en el UX Design, un gran aliado para cumplir mis
+				metas, desarrollando productos que brindan una experiencia agradable a
+				través de una interface simple y accesible.</p>
+		</div>
+		<br>
+		<div class="text-center div-head">
+			<img src="images/t2.png" alt="">
+		</div>
+
+	</div>
+	<!----//End-about-us---->
+	<!----start-skillls---->
+	<div id="skills" class="skills">
+		<div class="container">
+			<div class="text-center div-head skills-head">
+				<h2>HABILIDADES</h2>
+				<p>Butterfly is a modern psd theme made to look awesome on any size of screen. single page template for creative
+					agency .</p>
+			</div>
+			<div class="row skills-grids">
+				<div class="col-md-3 skills-grid text-center">
+					<span class="s-icon4"><strong>90%</strong></span>
+					<h3>Figma</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<span class="s-icon1"><strong>80%</strong></span>
+					<h3>HTML5 / CSS3</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<span class="s-icon2"><strong>70%</strong></span>
+					<h3>Github</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<span class="s-icon4"><strong>90%</strong></span>
+					<h3>SAP</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center" style="margin-top: 40px">
+					<span class="s-icon1"><strong>80%</strong></span>
+					<h3>Marvel</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center" style="margin-top: 40px">
+					<span class="s-icon1"><strong>80%</strong></span>
+					<h3>Wordpress</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center" style="margin-top: 40px">
+					<span class="s-icon2"><strong>70%</strong></span>
+					<h3>Materialize</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="col-md-3 skills-grid text-center" style="margin-top: 40px">
+					<span class="s-icon2"><strong>70%</strong></span>
+					<h3>Bootstrap</h3>
+					<!-- <p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p> -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!----//End-skillls---->
+	<div class="row about-grids text-center" style="margin-right: 0px">
+		<div class="text-center div-head">
+			<h2 style="padding-top: 9px">SERVICIOS</h2>
+		</div>
+		<div class="col-md-3 about-grid">
+			<a class="a-coin1">
+				<span> </span>
+			</a>
+			<a>
+				<h3>Web Design</h3>
+			</a>
+			<p>Porque nunca es suficiente, construyamos el nuevo rostro de la
+				herramienta más importante para tu negocio.</p>
+		</div>
+		<div class="col-md-3 about-grid">
+			<a class="a-coin2">
+				<span> </span>
+			</a>
+			<a>
+				<h3>Research</h3>
+			</a>
+			<p>Cuanto más temprano, mejor. Exploremos y analizamos la información
+				sobre el público objetivo.
+			</p>
+		</div>
+		<div class="col-md-3 about-grid">
+			<a class="a-coin3">
+				<span> </span>
+			</a>
+			<a>
+				<h3>Prototyping</h3>
+			</a>
+			<p>Definamos la mejor interacción y funcionalidad que tu app necesita.</p>
+		</div>
+		<div class="col-md-3 about-grid">
+			<a class="a-coin4">
+				<span> </span>
+			</a>
+			<a>
+				<h3>Testing</h3>
+			</a>
+			<p>Preparémonos para corregir y desarrollar un producto que se ajuste
+				cada vez más a lo que el usuario necesita. </p>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<!----start-our-team---->
+	<!-- <div id="team" class="container our-team">
+         	<div class="text-center div-head">
+	        		<h2>OUR TEAM</h2>
+	        		<p>Butterfly is a modern psd theme made to look awesome on any size of screen. single page template for creative agency .</p>
+	       	</div>
+	       	<!----start-team-member-script-files---->
+	<!----//End-team-member-script-files---->
+	<!-- <div class="row our-team-grids">
+	       		<div class="col-md-4 our-team-grid holder smooth">
+			         <img src="images/t1.jpg" alt="">
+						<div class="go-top">
+						  <ul class="team-memmber-social list-unstyled list-inline">
+						    <li><a href="#"> <span class="facebook"> </span></a></li>
+						    <li><a href="#"> <span class="twitter"> </span></a></li>
+						    <li><a href="#"> <span class="chaton"> </span></a></li>
+						  </ul>
+						</div>
+	       		</div>
+	       		<div class="col-md-4 our-team-grid holder smooth">
+			         <img src="images/t2.jpg" alt="">
+						<div class="go-top">
+						  <ul class="team-memmber-social list-unstyled list-inline">
+						    <li><a href="#"> <span class="facebook"> </span></a></li>
+						    <li><a href="#"> <span class="twitter"> </span></a></li>
+						    <li><a href="#"> <span class="chaton"> </span></a></li>
+						  </ul>
+						</div>
+	       		</div>
+	       		<div class="col-md-4 our-team-grid holder smooth">
+			         <img src="images/t3.jpg" alt="">
+						<div class="go-top">
+						  <ul class="team-memmber-social list-unstyled list-inline">
+						    <li><a href="#"> <span class="facebook"> </span></a></li>
+						    <li><a href="#"> <span class="twitter"> </span></a></li>
+						    <li><a href="#"> <span class="chaton"> </span></a></li>
+						  </ul>
+						</div>
+	       		</div> -->
+	<div class="clearfix"> </div>
+
+	</div>
+	</div>
+	<!----//End-our-team---->
+	<!-----start-blog---->
+	<div id="blog" class="blog">
+		<div class="container">
+			<div class="text-center div-head skills-head">
+				<h2>PROYECTOS</h2>
+				<p>Pienso que la clave de todo proyecto es el entendimiento del objetivo y
+					descubrir lo que lxs usuarixs necesitan a través de una detallada
+					investigación. Estos proyectos me han servido para aprender nuevas
+					herramientas y tendencias así como me han permitido aportar mi punto de
+					ta como profesional de negocios.</p>
+			</div>
+			<!----start-post-grids---->
+			<div class="col-md-12 post-grids">
+				<div class="col-md-6 post-grid">
+					<div class="col-md-5 post-pic">
+						<a href="#"><img src="images/amable.png" title="post-pic-name" /></a>
+					</div>
+					<div class="col-md-7 post-info">
+						<h3><a href="#">REDISEÑO WEB</a> <span> 26\10\2018</span></h3>
+						<p>La web de la Consultora UX "Amable" requiere una actualización de 
+							emergencia debido a que la versión anterior fue recientemente dada
+							 de baja por un hackeo del servidor.</p>
+						<a href="https://www.figma.com/proto/Jr3zLTCK0QSxXIfGsl0ne1dG/Web-Amable?node-id=286%3A70&scaling=min-zoom" target="_blank"> -> Ver demo</a>
+						<br>
+						<a href="https://github.com/AilimMoscoso/lim-2018-01-ux-web-amable" target="_blank"> -> Ver proyecto</a>
+						<!-- <button type="button" class="btn btn-light">Demo</button> -->
+						<!-- <button type="button" class="btn btn-light">Github</button> -->
+						<!-- <ul class="post-share list-unstyled list-inline text-right">
+	       						<li><a href="#"><span class="post-chat-icon"> </span></a></li>
+	       						<li><a href="#"><span class="post-heart-icon"> </span></a></li>
+	       					</ul> -->
+					</div>
+				</div>
+				<div class="col-md-6 post-grid">
+					<div class="col-md-5 post-pic">
+						<a href="#"><img src="images/financial.png" title="post-pic-name" /></a>
+					</div>
+					<div class="col-md-7 post-info">
+						<h3><a href="#">APP FINANCIERA</a> <span> 26\10\2018</span></h3>
+						<p>El banco más importante del país nos contrató para realizar el rediseño
+							 de su nueva aplicación móvil presente en el mercado peruano durante 6 
+							 meses, esta aplicación llamada "Tus finanzas" permite a sus usuarios 
+							 visualizar sus gastos mensuales y fomentar el ahorro.</p>
+						<a href="https://marvelapp.com/9id62ea/screen/48587108" target="_blank"> -> Ver demo</a>
+						<br>
+						<a href="https://github.com/AilimMoscoso/lim-2018-01-ux-financial-app" target="_blank"> -> Ver proyecto</a>
+						<!-- <ul class="post-share list-unstyled list-inline text-right">
+	       						<li><a href="#"><span class="post-chat-icon"> </span></a></li>
+	       						<li><a href="#"><span class="post-heart-icon"> </span></a></li>
+	       					</ul> -->
+						<!-- <label class="post-label"> </label> -->
+					</div>
+				</div>
+				<div class="col-md-6 post-grid">
+					<div class="col-md-5 post-pic">
+						<a href="#"><img src="images/marketplace.png" title="post-pic-name" /></a>
+					</div>
+					<div class="col-md-7 post-info">
+						<h3><a href="#">MARKETPLACE</a> <span> 28\09\2018</span></h3>
+						<p>La Asociación de MYPES nos pidió que asesoremos a uno de sus
+							 miembros en crear un portal donde sus clientes compren sus productos. 
+							 En esta oportunidad trabajamos con La Casa de la Tata, tienda de artículos 
+							 que fomentan la crianza con apego (mamás y bebés).</p>
+						<a href="https://www.figma.com/proto/RYNA94o2vFZ9oW5ssteMTVwk/Untitled?node-id=400%3A423&scaling=scale-down" target="_blank"> -> Ver demo</a>
+						<br>
+						<a href="https://github.com/AilimMoscoso/lim-2018-01-ux-marketplace" target="_blank"> -> Ver proyecto</a>
+						<!-- <ul class="post-share list-unstyled list-inline text-right">
+	       						<li><a href="#"><span class="post-chat-icon"> </span></a></li>
+	       						<li><a href="#"><span class="post-heart-icon"> </span></a></li>
+	       					</ul> -->
+					</div>
+				</div>
+				<div class="col-md-6 post-grid">
+					<div class="col-md-5 post-pic">
+						<a href="#"><img src="images/sura.png" title="post-pic-name" /></a>
+					</div>
+					<div class="col-md-7 post-info">
+						<h3><a href="#">PERFILADOR DE INVERSIONISTA</a> <span> 05\10\2018</span></h3>
+						<p>Seguros Sura necesitaba poner en marcha una nueva forma de interactuar,
+							 entender y proponer sus productos, sin necesidad de depender de un
+							  asesor presencial  y así poder llegar a más personas en todo el
+							   Perú.
+							   </p>
+						<a href="https://marvelapp.com/a1dd60h" target="_blank"> -> Ver demo</a>
+						<br>
+						<a href="https://marvelapp.com/a1dd60h" target="_blank"> -> Ver proyecto</a>
+						<!-- <ul class="post-share list-unstyled list-inline text-right">
+	       						<li><a href="#"><span class="post-chat-icon"> </span></a></li>
+	       						<li><a href="#"><span class="post-heart-icon"> </span></a></li>
+	       					</ul> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----//End-post-grids---->
+	<!----start-words---->
+	<div class="text-center div-head" id="testimonios">
+		<h2>TESTIMONIOS</h2>
+	</div>
+	<!-- responsiveslides -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider3").responsiveSlides({
+				auto: true,
+				pager: false,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+		});
+	</script>
+	<!-- responsiveslides -->
+	<div id="top" class="callbacks_container">
+		<ul class="rslides" id="slider3" style="list-style-type:none">
+			<li>
+				<div class="test-banner">
+					<img class="quoa" src="images/quo2.png" alt="" />
+					<div class="test-left">
+
+					</div>
+					<div class="text-center div-head">
+						<p>"Ailim es una persona perseverante y con
+							mucho empuje, demuestra entusiasmo y buena actitud para asumir nuevos retos
+							y desafíos. No se desanima ante los problemas y sigue adelante a pesar de
+							los obstáculos que se le presenten. Además, mantiene adecuadas relaciones
+							interpersonales con sus compañeros de trabajo."</p>
+						<br>
+						<p>Mónica Jáuregui - Head Hunter</p>
+					</div>
+					<div class="clearfix"></div>
+					<img class="quo" src="images/quo1.png" alt="" />
+				</div>
+			</li>
+			<li>
+				<div class="test-banner">
+					<img class="quoa" src="images/quo2.png" alt="" />
+					<div class="test-left">
+						<img src="images/eee.png" alt="" />
+					</div>
+					<div class="text-center div-head">
+						<p>"Ailim es una excelente profesional comprometida y
+							proactiva, tuve la oportunidad de compartir y alcanzar
+							importantes logros en el área comercial con ella,
+							impulsando mejoras en los procesos para los clientes de
+							la institución."</p>
+						<br>
+						<p>Brian Reque - Asesor MINTRA</p>
+					</div>
+					<div class="clearfix"></div>
+					<img class="quo" src="images/quo1.png" alt="" />
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	</div>
+	</div>
+	<!-- <div class="words">
+			<div class="container text-center">
+				<h4><span class="frist-quit"> </span> Ailim es una persona perseverante y con 
+					mucho empuje, demuestra entusiasmo y buena actitud para asumir nuevos retos
+					 y desafíos. No se desanima ante los problemas y sigue adelante a pesar de
+					  los obstáculos que se le presenten. Además, mantiene adecuadas relaciones
+					   interpersonales con sus compañeros de trabajo. <span class="second-quit"> </span></h4>
+				<p>- Mónica Jáuregui - Head Hunter -</p>
+			</div>
+	</div> -->
+
+	<!-- <div class="words">
+			<div class="container text-center">
+				<h4><span class="frist-quit"> </span> Ailim es una excelente profesional 
+					comprometida y proactiva, tuve la oportunidad de compartir y alcanzar
+					 importantes logros en el área comercial con ella, impulsando mejoras en los
+					 procesos para los clientes de la institución. <span class="second-quit"> </span></h4>
+				<p>- Brian Reque - Asesor MINTRA -</p>
+			</div>
+	</div> -->
+	<!----//End-words---->
+	<!----team-member-note---->
+	<!-- <div class="member-note text-center">
+			<h3><span class="frist-quit"></span>Lorem Ipsum<span class="second-quit"> </span></h3>
+			<p>Butterfly is a modern psd theme made to look awesome on any size of screen. single page template for creative agency .</p>
+		</div> -->
+	<!-- --//End-member-note-- -->
+	<!----start-get-in-touch---->
+	<div id="contact" class="get-in-touch">
+		<div class="container">
+			<div class="text-center div-head">
+				<h2>CONTACTO</h2>
+				<p>Siéntete libre de contactarme en cualquier momento</p>
+				<ul class="list-unstyled list-inline get-share text-center">
+					<li><a href="https://www.linkedin.com/in/ailim-moscoso/" target="_blank"><span class="in"> </span> </a></li>
+					<!-- <li><a href="#"><span class="twitt"> </span> </a></li> -->
+					<li><a href="https://github.com/AilimMoscoso" target="_blank"><span class="gplus"> </span> </a></li>
+					<li><a href="https://www.facebook.com/ailim.moscosoyturrizaga" target="_blank"><span class="face"> </span> </a></li>
+					<!-- <li><a href="#"><span class="you"> </span> </a></li> -->
+
+					<!-- <li><a href="#"><span class="be"> </span> </a></li> -->
+					<li><a href="https://www.instagram.com/ailimmmmm/" target="_blank"><span class="ta"> </span> </a></li>
+				</ul>
+			</div>
+			<!-- <div class="col-md-7 text-center text-boxs">
+			       			<form>
+			       				<input type="text" placeholder="Name" required />
+				       			<input type="text" placeholder="Email" required />
+				       			<textarea>Message</textarea>
+				       			<input type="submit" value=" " />
+			       			</form>
+			       		</div> -->
+			<div class="col-md-12 address">
+				<!-- <h3>BUTTER FLY</h3>
+			       			<p>Aweasome creative agency asingle template page feel free to contact us we will help you in any time.</p> -->
+				<ul class="list-unstyled text-center">
+					<li><a href="#"> <span class="map-pin"> </span></a></li>
+					<li>
+						<p> Lima , Perú </p>
+					</li>
+				</ul>
+				<ul class="list-unstyled text-center">
+					<li><a href="#"> <span class="mobile"> </span></a></li>
+					<li>
+						<p>+511 980671333</p>
+					</li>
+				</ul>
+				<ul class="list-unstyled text-center">
+					<li><a href="#"> <span class="msg"> </span></a></li>
+					<li>
+						<p> <a href="#">Ailim.moscoso@gmail.com</a></p>
+					</li>
+				</ul>
+				<br>
+			    <br>
+			</div>
+			<p align="center"><img src="images/p-btn-bg.png" title="Butterfly" alt="p-btn-bg" border="0" /></a></p>
+		</div>
+	</div>
+	<!----//End-get-in-touch---->
+
+
+</body>
+
+</html>
